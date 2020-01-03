@@ -1,0 +1,142 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#EA_stbtn {
+	-fx-background-color: #C4D8E2;
+	-fx-background-radius: 15;
+	-fx-font-family: "Agency FB";
+	-fx-font-size: 30pt;
+}
+#EA_stbtn:hover {
+	-fx-cursor: hand;
+	-fx-font-size: 35pt;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+#EA_title {
+	-fx-font-size: 70pt;
+	-fx-font-family: "Agency FB";
+	-fx-font-weight: bold;
+	-fx-textAlignment: CENTER;
+}
+#About_background {
+	-fx-fill: rgba(255, 217, 236, 0.7);
+	-fx-smooth: true;
+	-fx-stroke-width: 15pt;
+	-fx-stroke: rgba(255, 217, 236, 0.5);
+}
+#About_about, #Setting_setting{
+	-fx-font-family: "Agency FB";
+	-fx-font-size: 12pt;
+	-fx-opacity: 0.6;
+}
+#About_maker{
+	-fx-font-family: "Agency FB";
+	-fx-font-size: 14pt;
+	-fx-opacity: 0.6;
+
+}
+#About_ncu {
+	-fx-font-family: "Agency FB";
+	-fx-font-size: 14pt;
+	-fx-opacity: 0.6;
+}
+#About_cs {
+	-fx-font-family: "Agency FB";
+	-fx-font-size: 14pt;
+	-fx-opacity: 0.6;
+}	
+
+#Setting_background {
+	-fx-fill: rgba(196, 216, 226, 0.7);
+	-fx-smooth: true;
+	-fx-stroke-width: 15pt;
+	-fx-stroke: rgba(196, 216, 226, 0.5);
+}
+#Setting_control_bar, #Setting_music_control_bar {
+	-fx-fill: rgba(70, 163, 255, 0.6);
+}
+#Setting_s_effects, #Setting_music {
+	-fx-font-family: "Agency FB";
+	-fx-font-size: 18px;
+	-fx-fill: #444444;
+}
+#Setting_s_effects_zip, #Setting_music_zip {
+	-fx-background-color: #666666;
+	-fx-cursor: hand;
+}
+#Setting_s_effects_zip:pressed, #Setting_music_zip:pressed {
+	-fx-background-color: #000000;
+}
+#Menu_background {
+	-fx-fill: rgba(255, 255, 255, 0.7);
+	-fx-smooth: true;
+	-fx-stroke-width: 15pt;
+	-fx-stroke: rgba(255, 255, 255, 0.5);
+}
+#Menu_text_rec {
+	-fx-fill: rgba(0, 0, 0, 0.9);
+}
+#Menu_option {
+	-fx-text-fill: rgb(221, 221, 221);
+	-fx-font-size: 80pt;
+	-fx-font-family: "Agency FB";
+}
+#Menu_arrow_right:hover, #Menu_arrow_left:hover, #Back:hover, #Menu_option_icon:hover, #Character_close:hover, #Collection_right:hover
+, #Collection_left:hover, #Game_arrow_left:hover, #Game_arrow_right:hover  {
+	-fx-cursor: hand;
+	-fx-scale-x: 1.1;
+	-fx-scale-y: 1.1;
+}
+#Menu_arrow_right:pressed, #Menu_arrow_left:pressed, #Back:pressed, #Menu_option_icon:pressed, #Character_close:pressed, #Collection_right:pressed
+, #Collection_left:pressed, #Game_arrow_left:pressed, #Game_arrow_right:pressed {
+	-fx-cursor: default;
+	-fx-scale-x: 1;
+	-fx-scale-y: 1;
+}
+#Game_fishing_line {
+	-fx-fill: rgba(0, 0, 0, 0);
+	-fx-stroke-width: 2.6;
+	-fx-stroke: rgba(0, 0, 0, 1);
+}
+#Game_marquee {
+	-fx-fill: rgba(255, 105, 180, 0.9);
+	-fx-stroke-width: 15pt;
+	-fx-stroke: rgba(255, 105, 180, 0.5);
+}
+#Game_result {
+	-fx-font-size: 120pt;
+	-fx-font-family: "Agency FB";
+	-fx-font-weight: bold;
+	-fx-text-fill: rgba(0, 102, 255, 0.9); 
+}
+#Game_marquee_space {
+	-fx-fill: rgba(51, 51, 51, 0.9);
+	-fx-stroke-width: 3pt;
+	-fx-stroke: rgba(51, 51, 51, 0.5);
+}
+#Collection_background {
+	-fx-fill: rgba(209, 187, 255, 0.7);
+	-fx-smooth: true;
+	-fx-stroke-width: 15pt;
+	-fx-stroke: rgba(209, 187, 255, 0.5);
+}
+#Character_label {
+	-fx-font-size: 30pt;
+	-fx-font-family: "Agency FB";	
+}
+#Character_bg_rec {
+	-fx-fill: rgba(255, 255, 255, 0.7);
+	-fx-smooth: true;
+	-fx-stroke-width: 8pt;
+	-fx-stroke: rgba(255, 255, 255, 0.5);
+}
+#Game_introduction_rc {
+	-fx-fill: rgba(232, 204, 255, 0.9);
+	-fx-smooth: true;
+	-fx-stroke-width: 5pt;
+	-fx-stroke: rgba(232, 204, 255, 0.7);
+}
+#Game_introduction {
+	-fx-font-size: 20pt;
+	-fx-font-family: "Agency FB";
+	-fx-font-weight: bold;
+	-fx-text-fill: rgba(0, 0, 0, 0.9);
+}

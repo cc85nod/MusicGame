@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <ImageView fitHeight="768.0" fitWidth="1024.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@collection_bg.jpg" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="663.0" layoutX="54.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" width="917.0" />
+    <ImageView fitHeight="58.0" fitWidth="58.0" layoutX="65.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@back.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="450.0" fitWidth="800.0" layoutX="110.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../../Desktop/角色圖/epic_1.JPG" />
+      </image>
+    </ImageView>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="418.0" layoutX="619.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="241.0" />
+    <Label layoutX="638.0" layoutY="217.0" text="Name: shiina mashiro">
+      <font>
+        <Font name="Agency FB" size="30.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="638.0" layoutY="297.0" text="Name: shiina mashiro" />
+    <Label font="$x1" layoutX="638.0" layoutY="377.0" text="Name: shiina mashiro" />
+    <Label font="$x1" layoutX="638.0" layoutY="457.0" text="Name: shiina mashiro" />
+    <Label font="$x1" layoutX="638.0" layoutY="537.0" text="Name: shiina mashiro" />
+  </children>
+  <padding>
+    <Insets />
+  </padding>
+</AnchorPane>
